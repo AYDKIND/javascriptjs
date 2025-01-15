@@ -25,7 +25,7 @@ const heros = ["king","IIKing","doga"];
 let myObj = {
     name: "Ashu"
 
-    
+
 
 }
 const myfunction=function(){
@@ -33,3 +33,34 @@ const myfunction=function(){
     
 }
 console.log(typeof outsideTemp);
+
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//Stack (Primitve), Heap (Non Primitive)
+ let myName ="King"
+
+
+ let anotherName = "Ashu";
+ anotherName = "Ashu"
+
+
+ console.log(myName); 
+ console.log(anotherName); 
+ let userOne={
+    email:"king@googlegmail.com",
+    upi: "user@ybl"
+ }
+
+ let userTwo = userOne
+
+
+    userTwo.email="user@google.com"
+
+    console.log(userOne.email);
+    console.log(userTwo.email);
+    
+    
+ 
